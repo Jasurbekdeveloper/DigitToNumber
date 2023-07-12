@@ -3,10 +3,10 @@
 public class NumberToWordsConverter
 {
     
+     static string[] Birlik = { "nol", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz" };
+     static string[] Onlik = { "nol", "o'n", "yigirma", "o'ttiz", "qirq", "ellik", "oltmish", "yetmish", "sakson", "to'qson"};
     public static string ConvertNumberToWords(int number)
     {
-        string[] Birlik = { "nol", "bir", "ikki", "uch", "to'rt", "besh", "olti", "yetti", "sakkiz", "to'qqiz" };
-        string[] Onlik = { "nol", "o'n", "yigirma", "o'ttiz", "qirq", "ellik", "oltmish", "yetmish", "sakson", "to'qson"};
 
         if (number == 0)
         {
